@@ -12,6 +12,11 @@ categories = ["cryptography", "command-line-utilities"]
 name = "s3etag"
 path = "src/lib.rs"
 
+[[bin]]
+name = "s3etag"
+path = "src/bin/s3etag.rs"
+required-features = ["cli"]
+
 [dependencies]
 clap = { version = "4.0", features = ["derive"], optional = true }
 md5 = "0.8"

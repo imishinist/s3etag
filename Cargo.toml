@@ -2,6 +2,11 @@
 name = "s3etag"
 version = "0.1.0"
 edition = "2021"
+description = "Calculate S3 ETag for multipart uploads"
+license = "MIT"
+repository = "https://github.com/imishinist/s3etag"
+keywords = ["s3", "etag", "aws", "hash", "md5"]
+categories = ["cryptography", "command-line-utilities"]
 
 [lib]
 name = "s3etag"

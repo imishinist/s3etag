@@ -1,6 +1,6 @@
 [package]
 name = "s3etag"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Calculate S3 ETag for multipart uploads"
 license = "MIT"

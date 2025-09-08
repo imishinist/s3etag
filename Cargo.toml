@@ -1,0 +1,16 @@
+[package]
+name = "s3etag"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "s3etag"
+path = "src/lib.rs"
+
+[[bin]]
+name = "s3etag"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+md5 = "0.8"

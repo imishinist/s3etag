@@ -7,10 +7,10 @@ edition = "2021"
 name = "s3etag"
 path = "src/lib.rs"
 
-[[bin]]
-name = "s3etag"
-path = "src/main.rs"
-
 [dependencies]
-clap = { version = "4.0", features = ["derive"] }
+clap = { version = "4.0", features = ["derive"], optional = true }
 md5 = "0.8"
+
+[features]
+default = []
+cli = ["clap"]
